@@ -1,0 +1,12 @@
+.marquee-wrapper {
+  overflow: hidden;
+  white-space: nowrap;
+}
+.marquee-wrapper b {
+  display: inline-block;
+  animation: marquee 12s linear infinite;
+}
+@keyframes marquee {
+  from { transform: translateX(100%); }
+  to   { transform: translateX(-100%); }
+}
